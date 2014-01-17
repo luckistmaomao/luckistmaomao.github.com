@@ -1,0 +1,18 @@
+---
+layout: index 
+title: hahaya's blog
+---
+
+<ul>
+{% for post in site.posts %}
+	<li>
+		<h3>
+			<a href="{{post.url}}">{{post.title}}</a>
+		<time>{{ post.date | date: '%Y-%m-%d'}}</time>
+		</h3>
+		<p> {{post.summary}}</p>
+			
+		<a href="{{post.url}}">全文阅读 &raquo;</a>
+	</li>
+{% endfor %}
+</ul>
