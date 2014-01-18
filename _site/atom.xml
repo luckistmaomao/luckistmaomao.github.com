@@ -4,7 +4,7 @@
  <title></title>
  <link href="/atom.xml" rel="self"/>
  <link href=""/>
- <updated>2014-01-18T21:01:19+08:00</updated>
+ <updated>2014-01-18T21:26:24+08:00</updated>
  <id></id>
  <author>
    <name></name>
@@ -21,11 +21,8 @@
 
 &lt;h2&gt;一、简介&lt;/h2&gt;
 
-&lt;ol&gt;
-&lt;li&gt;shell 是&lt;strong&gt;解释型&lt;/strong&gt;而不是&lt;strong&gt;编译型&lt;/strong&gt;的&lt;/li&gt;
-&lt;li&gt;shell 具有不同的类型，可用下面的命令查看&lt;/li&gt;
-&lt;/ol&gt;
-
+&lt;p&gt;1、 shell 是&lt;strong&gt;解释型&lt;/strong&gt;而不是&lt;strong&gt;编译型&lt;/strong&gt;的&lt;br/&gt;
+2、 shell 具有不同的类型，可用下面的命令查看&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;yu@yu:~&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;cat /etc/shells 
 /etc/shells: valid login shells
@@ -75,30 +72,30 @@ w
 
 &lt;p&gt;3、 执行脚本&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;chmod +x scriptname.sh
-./scriptname.sh
+&lt;pre&gt;&lt;code&gt;    chmod +x scriptname.sh
+    ./scriptname.sh
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;或者&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;bash/sh/source scriptname.sh  
+&lt;pre&gt;&lt;code&gt;    bash/sh/source scriptname.sh  
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;4、 调试脚本&lt;/p&gt;
 
 &lt;p&gt;调试整个脚本&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;bash -x scriptname.sh  
+&lt;pre&gt;&lt;code&gt;    bash -x scriptname.sh  
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;又可以在需要调试的代码段前后分别加上&lt;code&gt;set -x&lt;/code&gt;，&lt;code&gt;set +x&lt;/code&gt;&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;...
-set -x
-...
-一段代码
-...
-set +x  
+&lt;pre&gt;&lt;code&gt;    ...
+    set -x
+    ...
+    一段代码
+    ...
+    set +x  
 &lt;/code&gt;&lt;/pre&gt;
 </content>
  </entry>

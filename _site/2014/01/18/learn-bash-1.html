@@ -42,11 +42,8 @@
 
 <h2>一、简介</h2>
 
-<ol>
-<li>shell 是<strong>解释型</strong>而不是<strong>编译型</strong>的</li>
-<li>shell 具有不同的类型，可用下面的命令查看</li>
-</ol>
-
+<p>1、 shell 是<strong>解释型</strong>而不是<strong>编译型</strong>的<br/>
+2、 shell 具有不同的类型，可用下面的命令查看</p>
 
 <div class="highlight"><pre><code class="bash">yu@yu:~<span class="nv">$ </span>cat /etc/shells 
 /etc/shells: valid login shells
@@ -96,30 +93,30 @@ w
 
 <p>3、 执行脚本</p>
 
-<pre><code>chmod +x scriptname.sh
-./scriptname.sh
+<pre><code>    chmod +x scriptname.sh
+    ./scriptname.sh
 </code></pre>
 
 <p>或者</p>
 
-<pre><code>bash/sh/source scriptname.sh  
+<pre><code>    bash/sh/source scriptname.sh  
 </code></pre>
 
 <p>4、 调试脚本</p>
 
 <p>调试整个脚本</p>
 
-<pre><code>bash -x scriptname.sh  
+<pre><code>    bash -x scriptname.sh  
 </code></pre>
 
 <p>又可以在需要调试的代码段前后分别加上<code>set -x</code>，<code>set +x</code></p>
 
-<pre><code>...
-set -x
-...
-一段代码
-...
-set +x  
+<pre><code>    ...
+    set -x
+    ...
+    一段代码
+    ...
+    set +x  
 </code></pre>
 
 
