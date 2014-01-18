@@ -56,16 +56,20 @@ echo
 `export PATH="$PATH:~/scripts"`  
 
 3、 执行脚本   
+
 		chmod +x scriptname.sh
 	 	./scriptname.sh
 或者
+
 		bash/sh/source scriptname.sh  
 
 4、 调试脚本
 
 调试整个脚本  
+
 		bash -x scriptname.sh  
 又可以在需要调试的代码段前后分别加上`set -x`，`set +x`  
+
 		...
 		set -x
 		...
