@@ -4,13 +4,104 @@
  <title></title>
  <link href="/atom.xml" rel="self"/>
  <link href=""/>
- <updated>2014-01-18T00:52:06+08:00</updated>
+ <updated>2014-01-18T21:01:19+08:00</updated>
  <id></id>
  <author>
    <name></name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>shell学习笔记（一）</title>
+   <link href="/2014/01/18/learn-bash-1.html"/>
+   <updated>2014-01-18T00:00:00+08:00</updated>
+   <id>h/2014/01/18/learn-bash-1</id>
+   <content type="html">&lt;h1&gt;shell学习笔记（一）&lt;/h1&gt;
+
+&lt;h2&gt;一、简介&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;shell 是&lt;strong&gt;解释型&lt;/strong&gt;而不是&lt;strong&gt;编译型&lt;/strong&gt;的&lt;/li&gt;
+&lt;li&gt;shell 具有不同的类型，可用下面的命令查看&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;yu@yu:~&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;cat /etc/shells 
+/etc/shells: valid login shells
+/bin/sh
+/bin/dash
+/bin/bash
+/bin/rbash
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+
+&lt;h2&gt;二、编写和调试脚本&lt;/h2&gt;
+
+&lt;p&gt;1、 通过任何一个文本编辑器，如&lt;strong&gt;vim&lt;/strong&gt;、emacs建立脚本&lt;br/&gt;
+2、 一个例子&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;&lt;span class=&quot;c&quot;&gt;#!/bin/bash&lt;/span&gt;
+
+clear
+
+&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;The script starts now&amp;quot;&lt;/span&gt;
+
+&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi,$USER!&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt;
+
+&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;I will now fetch you a lsit of connected users:&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt;
+w
+&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt;
+
+&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;I&amp;#39;m sitting two variables now.&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;COLOUR&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;black&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;VALUE&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;9&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;This is a string: $COLOUR&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;And this is a number: $VALUE&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;echo &lt;/span&gt;
+
+&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;I&amp;#39;m giving you back your prompt now.&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;可以建立一个目录&lt;strong&gt;~/scripts&lt;/strong&gt; 来存放shell脚本&lt;br/&gt;
+同时将此目录添加到&lt;strong&gt;PATH&lt;/strong&gt;变量中
+&lt;code&gt;export PATH=&quot;$PATH:~/scripts&quot;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;3、 执行脚本&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;chmod +x scriptname.sh
+./scriptname.sh
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;或者&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;bash/sh/source scriptname.sh  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;4、 调试脚本&lt;/p&gt;
+
+&lt;p&gt;调试整个脚本&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;bash -x scriptname.sh  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;又可以在需要调试的代码段前后分别加上&lt;code&gt;set -x&lt;/code&gt;，&lt;code&gt;set +x&lt;/code&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;...
+set -x
+...
+一段代码
+...
+set +x  
+&lt;/code&gt;&lt;/pre&gt;
+</content>
+ </entry>
  
  <entry>
    <title>把blog搬过来了</title>
@@ -21,7 +112,15 @@
 
 &lt;p&gt;恩，终于搞定了&lt;/p&gt;
 
-&lt;h1&gt;我就是测试一下下&lt;/h1&gt;
+&lt;h3&gt;我就是测试一下下&lt;/h3&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;python&quot;&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;__name__&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;__main__&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;hello world&amp;quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+
+
 </content>
  </entry>
  

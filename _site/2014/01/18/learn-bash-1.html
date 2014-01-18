@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
-		<title>把blog搬过来了</title>
+		<title>shell学习笔记（一）</title>
 		<link rel="stylesheet" href="/css/main.css" />
 		<link rel="stylesheet" href="/css/pygments_native.css" />
 		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Handlee">
@@ -29,28 +29,98 @@
 	<div class="c9">
 		分类：
 			
-			<a href="/category.html#杂">杂</a>
+			<a href="/category.html#shell">shell</a>
 			
 			
 		&emsp;&emsp;&emsp;&emsp;
-		标签：杂
+		标签：shell
 		&emsp;&emsp;&emsp;&emsp;
-		<time date="2014-01-17 00:00:00 +0800">2014-01-17</time>
+		<time date="2014-01-18 00:00:00 +0800">2014-01-18</time>
 	</div>
 
-	<h1>把blog搬过来了</h1>
+	<h1>shell学习笔记（一）</h1>
 
-<p>恩，终于搞定了</p>
+<h2>一、简介</h2>
 
-<h3>我就是测试一下下</h3>
+<ol>
+<li>shell 是<strong>解释型</strong>而不是<strong>编译型</strong>的</li>
+<li>shell 具有不同的类型，可用下面的命令查看</li>
+</ol>
 
-<div class="highlight"><pre><code class="python"><span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="s">&quot;__main__&quot;</span><span class="p">:</span>
-    <span class="k">print</span> <span class="s">&quot;hello world&quot;</span>
+
+<div class="highlight"><pre><code class="bash">yu@yu:~<span class="nv">$ </span>cat /etc/shells 
+/etc/shells: valid login shells
+/bin/sh
+/bin/dash
+/bin/bash
+/bin/rbash
 </code></pre>
 </div>
 
 
+<h2>二、编写和调试脚本</h2>
 
+<p>1、 通过任何一个文本编辑器，如<strong>vim</strong>、emacs建立脚本<br/>
+2、 一个例子</p>
+
+<div class="highlight"><pre><code class="bash"><span class="c">#!/bin/bash</span>
+
+clear
+
+<span class="nb">echo</span> <span class="s2">&quot;The script starts now&quot;</span>
+
+<span class="nb">echo</span> <span class="s2">&quot;Hi,$USER!&quot;</span>
+<span class="nb">echo</span>
+
+<span class="nb">echo</span> <span class="s2">&quot;I will now fetch you a lsit of connected users:&quot;</span>
+<span class="nb">echo</span>
+w
+<span class="nb">echo</span>
+
+<span class="nb">echo</span> <span class="s2">&quot;I&#39;m sitting two variables now.&quot;</span>
+<span class="nv">COLOUR</span><span class="o">=</span><span class="s2">&quot;black&quot;</span>
+<span class="nv">VALUE</span><span class="o">=</span><span class="s2">&quot;9&quot;</span>
+<span class="nb">echo</span> <span class="s2">&quot;This is a string: $COLOUR&quot;</span>
+<span class="nb">echo</span> <span class="s2">&quot;And this is a number: $VALUE&quot;</span>
+<span class="nb">echo </span>
+
+<span class="nb">echo</span> <span class="s2">&quot;I&#39;m giving you back your prompt now.&quot;</span>
+<span class="nb">echo</span>
+</code></pre>
+</div>
+
+
+<p>可以建立一个目录<strong>~/scripts</strong> 来存放shell脚本<br/>
+同时将此目录添加到<strong>PATH</strong>变量中
+<code>export PATH="$PATH:~/scripts"</code></p>
+
+<p>3、 执行脚本</p>
+
+<pre><code>chmod +x scriptname.sh
+./scriptname.sh
+</code></pre>
+
+<p>或者</p>
+
+<pre><code>bash/sh/source scriptname.sh  
+</code></pre>
+
+<p>4、 调试脚本</p>
+
+<p>调试整个脚本</p>
+
+<pre><code>bash -x scriptname.sh  
+</code></pre>
+
+<p>又可以在需要调试的代码段前后分别加上<code>set -x</code>，<code>set +x</code></p>
+
+<pre><code>...
+set -x
+...
+一段代码
+...
+set +x  
+</code></pre>
 
 
 	<div class="eof"><b>---------------------------------------------- the end ----------------------------------------------</b></div>
@@ -58,8 +128,8 @@
 	<hr />
 	<div class="page fix">
 		
+		<span class="prev"><a href="/2014/01/17/start.html">←《把blog搬过来了》</a></span>
 		
-		<span class="next"><a href="/2014/01/18/learn-bash-1.html">《shell学习笔记（一）》→</a></span>
 		
 	</div>
 	<hr />
