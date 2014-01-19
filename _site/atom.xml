@@ -4,13 +4,22 @@
  <title></title>
  <link href="/atom.xml" rel="self"/>
  <link href=""/>
- <updated>2014-01-18T21:26:24+08:00</updated>
+ <updated>2014-01-19T14:52:32+08:00</updated>
  <id></id>
  <author>
    <name></name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Reading</title>
+   <link href="/2014/01/19/reading.html"/>
+   <updated>2014-01-19T00:00:00+08:00</updated>
+   <id>h/2014/01/19/reading</id>
+   <content type="html">&lt;h1&gt;Reading&lt;/h1&gt;
+</content>
+ </entry>
  
  <entry>
    <title>shell学习笔记（一）</title>
@@ -101,23 +110,608 @@ w
  </entry>
  
  <entry>
-   <title>把blog搬过来了</title>
+   <title>Start</title>
    <link href="/2014/01/17/start.html"/>
    <updated>2014-01-17T00:00:00+08:00</updated>
    <id>h/2014/01/17/start</id>
-   <content type="html">&lt;h1&gt;把blog搬过来了&lt;/h1&gt;
+   <content type="html">&lt;p&gt;&amp;lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head prefix=&quot;og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# githubog: http://ogp.me/ns/fb/githubog#&quot;&gt;&lt;/p&gt;
 
-&lt;p&gt;恩，终于搞定了&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;meta charset='utf-8'&amp;gt;
+&amp;lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&amp;gt;
+    &amp;lt;title&amp;gt;luckistmaomao.github.com/_posts/2014-1-17-start.md at master · luckistmaomao/luckistmaomao.github.com · GitHub&amp;lt;/title&amp;gt;
+&amp;lt;link rel=&quot;search&quot; type=&quot;application/opensearchdescription+xml&quot; href=&quot;/opensearch.xml&quot; title=&quot;GitHub&quot; /&amp;gt;
+&amp;lt;link rel=&quot;fluid-icon&quot; href=&quot;https://github.com/fluidicon.png&quot; title=&quot;GitHub&quot; /&amp;gt;
+&amp;lt;link rel=&quot;apple-touch-icon&quot; sizes=&quot;57x57&quot; href=&quot;/apple-touch-icon-114.png&quot; /&amp;gt;
+&amp;lt;link rel=&quot;apple-touch-icon&quot; sizes=&quot;114x114&quot; href=&quot;/apple-touch-icon-114.png&quot; /&amp;gt;
+&amp;lt;link rel=&quot;apple-touch-icon&quot; sizes=&quot;72x72&quot; href=&quot;/apple-touch-icon-144.png&quot; /&amp;gt;
+&amp;lt;link rel=&quot;apple-touch-icon&quot; sizes=&quot;144x144&quot; href=&quot;/apple-touch-icon-144.png&quot; /&amp;gt;
+&amp;lt;link rel=&quot;logo&quot; type=&quot;image/svg&quot; href=&quot;https://github-media-downloads.s3.amazonaws.com/github-logo.svg&quot; /&amp;gt;
+&amp;lt;meta property=&quot;og:image&quot; content=&quot;https://github.global.ssl.fastly.net/images/modules/logos_page/Octocat.png&quot;&amp;gt;
+&amp;lt;meta name=&quot;hostname&quot; content=&quot;github-fe126-cp1-prd.iad.github.net&quot;&amp;gt;
+&amp;lt;meta name=&quot;ruby&quot; content=&quot;ruby 2.1.0p0-github-tcmalloc (60139581e1) [x86_64-linux]&quot;&amp;gt;
+&amp;lt;link rel=&quot;assets&quot; href=&quot;https://github.global.ssl.fastly.net/&quot;&amp;gt;
+&amp;lt;link rel=&quot;conduit-xhr&quot; href=&quot;https://ghconduit.com:25035/&quot;&amp;gt;
+&amp;lt;link rel=&quot;xhr-socket&quot; href=&quot;/_sockets&quot; /&amp;gt;
 
-&lt;h3&gt;我就是测试一下下&lt;/h3&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;python&quot;&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;__name__&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;__main__&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;hello world&amp;quot;&lt;/span&gt;
+
+&amp;lt;meta name=&quot;msapplication-TileImage&quot; content=&quot;/windows-tile.png&quot; /&amp;gt;
+&amp;lt;meta name=&quot;msapplication-TileColor&quot; content=&quot;#ffffff&quot; /&amp;gt;
+&amp;lt;meta name=&quot;selected-link&quot; value=&quot;repo_source&quot; data-pjax-transient /&amp;gt;
+&amp;lt;meta content=&quot;collector.githubapp.com&quot; name=&quot;octolytics-host&quot; /&amp;gt;&amp;lt;meta content=&quot;collector-cdn.github.com&quot; name=&quot;octolytics-script-host&quot; /&amp;gt;&amp;lt;meta content=&quot;github&quot; name=&quot;octolytics-app-id&quot; /&amp;gt;&amp;lt;meta content=&quot;B46C8AC9:427D:BE6FBC:52DB75F0&quot; name=&quot;octolytics-dimension-request_id&quot; /&amp;gt;
+
+
+
+
+&amp;lt;link rel=&quot;icon&quot; type=&quot;image/x-icon&quot; href=&quot;/favicon.ico&quot; /&amp;gt;
+
+&amp;lt;meta content=&quot;authenticity_token&quot; name=&quot;csrf-param&quot; /&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;meta content=&quot;DExcWs8/i5gN2CjTw5c8cUYf1/dfb/xEFrvwt1SzogM=&quot; name=&quot;csrf-token&quot; /&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;link href=&quot;https://github.global.ssl.fastly.net/assets/github-afd65da2802beafd8aee40df66e8b576092b2913.css&quot; media=&quot;all&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&amp;gt;
+&amp;lt;link href=&quot;https://github.global.ssl.fastly.net/assets/github2-3a909621ac79c89e7f414c6a6babc7f449d8ee93.css&quot; media=&quot;all&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&amp;gt;
+
+
+
+  &amp;lt;script src=&quot;https://github.global.ssl.fastly.net/assets/frameworks-bf5987648bb83690ac0a5e955f74bbaf6ba44c4a.js&quot; type=&quot;text/javascript&quot;&amp;gt;&amp;lt;/script&amp;gt;
+  &amp;lt;script src=&quot;https://github.global.ssl.fastly.net/assets/github-0a61a76e9eda30f8d824f2bfed9f409c20f00570.js&quot; type=&quot;text/javascript&quot;&amp;gt;&amp;lt;/script&amp;gt;
+
+  &amp;lt;meta http-equiv=&quot;x-pjax-version&quot; content=&quot;bd1b19691f51965969008055cb1c7974&quot;&amp;gt;
+
+    &amp;lt;link data-pjax-transient rel='permalink' href='/luckistmaomao/luckistmaomao.github.com/blob/c34192d30cb4e0b648a4ddb4bb6715fb2946296d/_posts/2014-1-17-start.md'&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;  &lt;meta property=&quot;og:title&quot; content=&quot;luckistmaomao.github.com&quot;/&gt;
+  &lt;meta property=&quot;og:type&quot; content=&quot;githubog:gitrepository&quot;/&gt;
+  &lt;meta property=&quot;og:url&quot; content=&quot;https://github.com/luckistmaomao/luckistmaomao.github.com&quot;/&gt;
+  &lt;meta property=&quot;og:image&quot; content=&quot;https://github.global.ssl.fastly.net/images/gravatars/gravatar-user-420.png&quot;/&gt;
+  &lt;meta property=&quot;og:site_name&quot; content=&quot;GitHub&quot;/&gt;
+  &lt;meta property=&quot;og:description&quot; content=&quot;Contribute to luckistmaomao.github.com development by creating an account on GitHub.&quot;/&gt;&lt;/p&gt;
+
+&lt;p&gt;  &lt;meta name=&quot;description&quot; content=&quot;Contribute to luckistmaomao.github.com development by creating an account on GitHub.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;  &lt;meta content=&quot;1815841&quot; name=&quot;octolytics-dimension-user_id&quot; /&gt;&lt;meta content=&quot;luckistmaomao&quot; name=&quot;octolytics-dimension-user_login&quot; /&gt;&lt;meta content=&quot;16005369&quot; name=&quot;octolytics-dimension-repository_id&quot; /&gt;&lt;meta content=&quot;luckistmaomao/luckistmaomao.github.com&quot; name=&quot;octolytics-dimension-repository_nwo&quot; /&gt;&lt;meta content=&quot;true&quot; name=&quot;octolytics-dimension-repository_public&quot; /&gt;&lt;meta content=&quot;false&quot; name=&quot;octolytics-dimension-repository_is_fork&quot; /&gt;&lt;meta content=&quot;16005369&quot; name=&quot;octolytics-dimension-repository_network_root_id&quot; /&gt;&lt;meta content=&quot;luckistmaomao/luckistmaomao.github.com&quot; name=&quot;octolytics-dimension-repository_network_root_nwo&quot; /&gt;
+  &lt;link href=&quot;https://github.com/luckistmaomao/luckistmaomao.github.com/commits/master.atom&quot; rel=&quot;alternate&quot; title=&quot;Recent Commits to luckistmaomao.github.com:master&quot; type=&quot;application/atom+xml&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;  &lt;/head&gt;&lt;/p&gt;
+
+&lt;p&gt;  &lt;body class=&quot;logged_out  env-production  vis-public page-blob&quot;&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;div class=&quot;wrapper&quot;&amp;gt;
+
+
+
+
+
+
+
+  &amp;lt;div class=&quot;header header-logged-out&quot;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;  &lt;div class=&quot;container clearfix&quot;&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;a class=&quot;header-logo-wordmark&quot; href=&quot;https://github.com/&quot;&amp;gt;
+  &amp;lt;span class=&quot;mega-octicon octicon-logo-github&quot;&amp;gt;&amp;lt;/span&amp;gt;
+&amp;lt;/a&amp;gt;
+
+&amp;lt;div class=&quot;header-actions&quot;&amp;gt;
+    &amp;lt;a class=&quot;button primary&quot; href=&quot;/join&quot;&amp;gt;Sign up&amp;lt;/a&amp;gt;
+  &amp;lt;a class=&quot;button signin&quot; href=&quot;/login?return_to=%2Fluckistmaomao%2Fluckistmaomao.github.com%2Fblob%2Fmaster%2F_posts%2F2014-1-17-start.md&quot;&amp;gt;Sign in&amp;lt;/a&amp;gt;
+&amp;lt;/div&amp;gt;
+
+&amp;lt;div class=&quot;command-bar js-command-bar  in-repository&quot;&amp;gt;
+
+  &amp;lt;ul class=&quot;top-nav&quot;&amp;gt;
+      &amp;lt;li class=&quot;explore&quot;&amp;gt;&amp;lt;a href=&quot;/explore&quot;&amp;gt;Explore&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+    &amp;lt;li class=&quot;features&quot;&amp;gt;&amp;lt;a href=&quot;/features&quot;&amp;gt;Features&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+      &amp;lt;li class=&quot;enterprise&quot;&amp;gt;&amp;lt;a href=&quot;https://enterprise.github.com/&quot;&amp;gt;Enterprise&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+      &amp;lt;li class=&quot;blog&quot;&amp;gt;&amp;lt;a href=&quot;/blog&quot;&amp;gt;Blog&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+  &amp;lt;/ul&amp;gt;
+    &amp;lt;form accept-charset=&quot;UTF-8&quot; action=&quot;/search&quot; class=&quot;command-bar-form&quot; id=&quot;top_search_form&quot; method=&quot;get&quot;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&amp;lt;input type=&quot;text&quot; data-hotkey=&quot;/ s&quot; name=&quot;q&quot; id=&quot;js-command-bar-field&quot; placeholder=&quot;Search or type a command&quot; tabindex=&quot;1&quot; autocapitalize=&quot;off&quot;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  data-repo=&quot;luckistmaomao/luckistmaomao.github.com&quot;
+  data-branch=&quot;master&quot;
+  data-sha=&quot;58b9f782dbcfa33f7d6eede4dcec7a8d4f2bd330&quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;blockquote&gt;&lt;/blockquote&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;input type=&quot;hidden&quot; name=&quot;nwo&quot; value=&quot;luckistmaomao/luckistmaomao.github.com&quot; /&amp;gt;
+
+&amp;lt;div class=&quot;select-menu js-menu-container js-select-menu search-context-select-menu&quot;&amp;gt;
+  &amp;lt;span class=&quot;minibutton select-menu-button js-menu-target&quot;&amp;gt;
+    &amp;lt;span class=&quot;js-select-button&quot;&amp;gt;This repository&amp;lt;/span&amp;gt;
+  &amp;lt;/span&amp;gt;
+
+  &amp;lt;div class=&quot;select-menu-modal-holder js-menu-content js-navigation-container&quot;&amp;gt;
+    &amp;lt;div class=&quot;select-menu-modal&quot;&amp;gt;
+
+      &amp;lt;div class=&quot;select-menu-item js-navigation-item js-this-repository-navigation-item selected&quot;&amp;gt;
+        &amp;lt;span class=&quot;select-menu-item-icon octicon octicon-check&quot;&amp;gt;&amp;lt;/span&amp;gt;
+        &amp;lt;input type=&quot;radio&quot; class=&quot;js-search-this-repository&quot; name=&quot;search_target&quot; value=&quot;repository&quot; checked=&quot;checked&quot; /&amp;gt;
+        &amp;lt;div class=&quot;select-menu-item-text js-select-button-text&quot;&amp;gt;This repository&amp;lt;/div&amp;gt;
+      &amp;lt;/div&amp;gt; &amp;lt;!-- /.select-menu-item --&amp;gt;
+
+      &amp;lt;div class=&quot;select-menu-item js-navigation-item js-all-repositories-navigation-item&quot;&amp;gt;
+        &amp;lt;span class=&quot;select-menu-item-icon octicon octicon-check&quot;&amp;gt;&amp;lt;/span&amp;gt;
+        &amp;lt;input type=&quot;radio&quot; name=&quot;search_target&quot; value=&quot;global&quot; /&amp;gt;
+        &amp;lt;div class=&quot;select-menu-item-text js-select-button-text&quot;&amp;gt;All repositories&amp;lt;/div&amp;gt;
+      &amp;lt;/div&amp;gt; &amp;lt;!-- /.select-menu-item --&amp;gt;
+
+    &amp;lt;/div&amp;gt;
+  &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;  &lt;span class=&quot;octicon help tooltipped downwards&quot; title=&quot;Show command bar help&quot;&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;span class=&quot;octicon octicon-question&quot;&amp;gt;&amp;lt;/span&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;  &lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;  &lt;input type=&quot;hidden&quot; name=&quot;ref&quot; value=&quot;cmdform&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/form&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;  &lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;      &amp;lt;div class=&quot;site&quot; itemscope itemtype=&quot;http://schema.org/WebPage&quot;&amp;gt;
+
+&amp;lt;div class=&quot;pagehead repohead instapaper_ignore readability-menu&quot;&amp;gt;
+  &amp;lt;div class=&quot;container&quot;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul class=&quot;pagehead-actions&quot;&gt;
+
+
+  &lt;li&gt;
+    &lt;a href=&quot;/login?return_to=%2Fluckistmaomao%2Fluckistmaomao.github.com&quot;
+    class=&quot;minibutton with-count js-toggler-target star-button tooltipped upwards&quot;
+    title=&quot;You must be signed in to use this feature&quot; rel=&quot;nofollow&quot;&gt;
+    &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;Star
+  &lt;/a&gt;
+
+    &lt;a class=&quot;social-count js-social-count&quot; href=&quot;/luckistmaomao/luckistmaomao.github.com/stargazers&quot;&gt;
+      0
+    &lt;/a&gt;
+
+  &lt;/li&gt;
+
+    &lt;li&gt;
+      &lt;a href=&quot;/login?return_to=%2Fluckistmaomao%2Fluckistmaomao.github.com&quot;
+        class=&quot;minibutton with-count js-toggler-target fork-button tooltipped upwards&quot;
+        title=&quot;You must be signed in to fork a repository&quot; rel=&quot;nofollow&quot;&gt;
+        &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;Fork
+      &lt;/a&gt;
+      &lt;a href=&quot;/luckistmaomao/luckistmaomao.github.com/network&quot; class=&quot;social-count&quot;&gt;
+        0
+      &lt;/a&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;pre&gt;&lt;code&gt;    &amp;lt;h1 itemscope itemtype=&quot;http://data-vocabulary.org/Breadcrumb&quot; class=&quot;entry-title public&quot;&amp;gt;
+      &amp;lt;span class=&quot;repo-label&quot;&amp;gt;&amp;lt;span&amp;gt;public&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;
+      &amp;lt;span class=&quot;mega-octicon octicon-repo&quot;&amp;gt;&amp;lt;/span&amp;gt;
+      &amp;lt;span class=&quot;author&quot;&amp;gt;
+        &amp;lt;a href=&quot;/luckistmaomao&quot; class=&quot;url fn&quot; itemprop=&quot;url&quot; rel=&quot;author&quot;&amp;gt;&amp;lt;span itemprop=&quot;title&quot;&amp;gt;luckistmaomao&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;
+      &amp;lt;/span&amp;gt;
+      &amp;lt;span class=&quot;repohead-name-divider&quot;&amp;gt;/&amp;lt;/span&amp;gt;
+      &amp;lt;strong&amp;gt;&amp;lt;a href=&quot;/luckistmaomao/luckistmaomao.github.com&quot; class=&quot;js-current-repository js-repo-home-link&quot;&amp;gt;luckistmaomao.github.com&amp;lt;/a&amp;gt;&amp;lt;/strong&amp;gt;
+
+      &amp;lt;span class=&quot;page-context-loader&quot;&amp;gt;
+        &amp;lt;img alt=&quot;Octocat-spinner-32&quot; height=&quot;16&quot; src=&quot;https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif&quot; width=&quot;16&quot; /&amp;gt;
+      &amp;lt;/span&amp;gt;
+
+    &amp;lt;/h1&amp;gt;
+  &amp;lt;/div&amp;gt;&amp;lt;!-- /.container --&amp;gt;
+&amp;lt;/div&amp;gt;&amp;lt;!-- /.repohead --&amp;gt;
+
+&amp;lt;div class=&quot;container&quot;&amp;gt;
+
+
+  &amp;lt;div class=&quot;repository-with-sidebar repo-container  &quot;&amp;gt;
+
+    &amp;lt;div class=&quot;repository-sidebar&quot;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;div class=&quot;sunken-menu vertical-right repo-nav js-repo-nav js-repository-container-pjax js-octicon-loaders&quot;&gt;
+  &lt;div class=&quot;sunken-menu-contents&quot;&gt;
+    &lt;ul class=&quot;sunken-menu-group&quot;&gt;
+      &lt;li class=&quot;tooltipped leftwards&quot; title=&quot;Code&quot;&gt;
+        &lt;a href=&quot;/luckistmaomao/luckistmaomao.github.com&quot; aria-label=&quot;Code&quot; class=&quot;selected js-selected-navigation-item sunken-menu-item&quot; data-gotokey=&quot;c&quot; data-pjax=&quot;true&quot; data-selected-links=&quot;repo_source repo_downloads repo_commits repo_tags repo_branches /luckistmaomao/luckistmaomao.github.com&quot;&gt;
+          &lt;span class=&quot;octicon octicon-code&quot;&gt;&lt;/span&gt; &lt;span class=&quot;full-word&quot;&gt;Code&lt;/span&gt;
+          &lt;img alt=&quot;Octocat-spinner-32&quot; class=&quot;mini-loader&quot; height=&quot;16&quot; src=&quot;https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif&quot; width=&quot;16&quot; /&gt;
+&lt;/a&gt;      &lt;/li&gt;
+
+        &lt;li class=&quot;tooltipped leftwards&quot; title=&quot;Issues&quot;&gt;
+          &lt;a href=&quot;/luckistmaomao/luckistmaomao.github.com/issues&quot; aria-label=&quot;Issues&quot; class=&quot;js-selected-navigation-item sunken-menu-item js-disable-pjax&quot; data-gotokey=&quot;i&quot; data-selected-links=&quot;repo_issues /luckistmaomao/luckistmaomao.github.com/issues&quot;&gt;
+            &lt;span class=&quot;octicon octicon-issue-opened&quot;&gt;&lt;/span&gt; &lt;span class=&quot;full-word&quot;&gt;Issues&lt;/span&gt;
+            &lt;span class='counter'&gt;0&lt;/span&gt;
+            &lt;img alt=&quot;Octocat-spinner-32&quot; class=&quot;mini-loader&quot; height=&quot;16&quot; src=&quot;https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif&quot; width=&quot;16&quot; /&gt;
+&lt;/a&gt;        &lt;/li&gt;
+
+      &lt;li class=&quot;tooltipped leftwards&quot; title=&quot;Pull Requests&quot;&gt;
+        &lt;a href=&quot;/luckistmaomao/luckistmaomao.github.com/pulls&quot; aria-label=&quot;Pull Requests&quot; class=&quot;js-selected-navigation-item sunken-menu-item js-disable-pjax&quot; data-gotokey=&quot;p&quot; data-selected-links=&quot;repo_pulls /luckistmaomao/luckistmaomao.github.com/pulls&quot;&gt;
+            &lt;span class=&quot;octicon octicon-git-pull-request&quot;&gt;&lt;/span&gt; &lt;span class=&quot;full-word&quot;&gt;Pull Requests&lt;/span&gt;
+            &lt;span class='counter'&gt;0&lt;/span&gt;
+            &lt;img alt=&quot;Octocat-spinner-32&quot; class=&quot;mini-loader&quot; height=&quot;16&quot; src=&quot;https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif&quot; width=&quot;16&quot; /&gt;
+&lt;/a&gt;      &lt;/li&gt;
+
+
+    &lt;/ul&gt;
+    &lt;div class=&quot;sunken-menu-separator&quot;&gt;&lt;/div&gt;
+    &lt;ul class=&quot;sunken-menu-group&quot;&gt;
+
+      &lt;li class=&quot;tooltipped leftwards&quot; title=&quot;Pulse&quot;&gt;
+        &lt;a href=&quot;/luckistmaomao/luckistmaomao.github.com/pulse&quot; aria-label=&quot;Pulse&quot; class=&quot;js-selected-navigation-item sunken-menu-item&quot; data-pjax=&quot;true&quot; data-selected-links=&quot;pulse /luckistmaomao/luckistmaomao.github.com/pulse&quot;&gt;
+          &lt;span class=&quot;octicon octicon-pulse&quot;&gt;&lt;/span&gt; &lt;span class=&quot;full-word&quot;&gt;Pulse&lt;/span&gt;
+          &lt;img alt=&quot;Octocat-spinner-32&quot; class=&quot;mini-loader&quot; height=&quot;16&quot; src=&quot;https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif&quot; width=&quot;16&quot; /&gt;
+&lt;/a&gt;      &lt;/li&gt;
+
+      &lt;li class=&quot;tooltipped leftwards&quot; title=&quot;Graphs&quot;&gt;
+        &lt;a href=&quot;/luckistmaomao/luckistmaomao.github.com/graphs&quot; aria-label=&quot;Graphs&quot; class=&quot;js-selected-navigation-item sunken-menu-item&quot; data-pjax=&quot;true&quot; data-selected-links=&quot;repo_graphs repo_contributors /luckistmaomao/luckistmaomao.github.com/graphs&quot;&gt;
+          &lt;span class=&quot;octicon octicon-graph&quot;&gt;&lt;/span&gt; &lt;span class=&quot;full-word&quot;&gt;Graphs&lt;/span&gt;
+          &lt;img alt=&quot;Octocat-spinner-32&quot; class=&quot;mini-loader&quot; height=&quot;16&quot; src=&quot;https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif&quot; width=&quot;16&quot; /&gt;
+&lt;/a&gt;      &lt;/li&gt;
+
+      &lt;li class=&quot;tooltipped leftwards&quot; title=&quot;Network&quot;&gt;
+        &lt;a href=&quot;/luckistmaomao/luckistmaomao.github.com/network&quot; aria-label=&quot;Network&quot; class=&quot;js-selected-navigation-item sunken-menu-item js-disable-pjax&quot; data-selected-links=&quot;repo_network /luckistmaomao/luckistmaomao.github.com/network&quot;&gt;
+          &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt; &lt;span class=&quot;full-word&quot;&gt;Network&lt;/span&gt;
+          &lt;img alt=&quot;Octocat-spinner-32&quot; class=&quot;mini-loader&quot; height=&quot;16&quot; src=&quot;https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif&quot; width=&quot;16&quot; /&gt;
+&lt;/a&gt;      &lt;/li&gt;
+    &lt;/ul&gt;
+
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;pre&gt;&lt;code&gt;        &amp;lt;div class=&quot;only-with-full-nav&quot;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;div class=&quot;clone-url open&quot;
+  data-protocol-type=&quot;http&quot;
+  data-url=&quot;/users/set_protocol?protocol_selector=http&amp;amp;protocol_type=clone&quot;&gt;
+  &lt;h3&gt;&lt;strong&gt;HTTPS&lt;/strong&gt; clone URL&lt;/h3&gt;
+  &lt;div class=&quot;clone-url-box&quot;&gt;
+    &lt;input type=&quot;text&quot; class=&quot;clone js-url-field&quot;
+           value=&quot;https://github.com/luckistmaomao/luckistmaomao.github.com.git&quot; readonly=&quot;readonly&quot;&gt;
+
+    &lt;span class=&quot;js-zeroclipboard url-box-clippy minibutton zeroclipboard-button&quot; data-clipboard-text=&quot;https://github.com/luckistmaomao/luckistmaomao.github.com.git&quot; data-copied-hint=&quot;copied!&quot; title=&quot;copy to clipboard&quot;&gt;&lt;span class=&quot;octicon octicon-clippy&quot;&gt;&lt;/span&gt;&lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 
 
+
+&lt;div class=&quot;clone-url &quot;
+  data-protocol-type=&quot;subversion&quot;
+  data-url=&quot;/users/set_protocol?protocol_selector=subversion&amp;amp;protocol_type=clone&quot;&gt;
+  &lt;h3&gt;&lt;strong&gt;Subversion&lt;/strong&gt; checkout URL&lt;/h3&gt;
+  &lt;div class=&quot;clone-url-box&quot;&gt;
+    &lt;input type=&quot;text&quot; class=&quot;clone js-url-field&quot;
+           value=&quot;https://github.com/luckistmaomao/luckistmaomao.github.com&quot; readonly=&quot;readonly&quot;&gt;
+
+    &lt;span class=&quot;js-zeroclipboard url-box-clippy minibutton zeroclipboard-button&quot; data-clipboard-text=&quot;https://github.com/luckistmaomao/luckistmaomao.github.com&quot; data-copied-hint=&quot;copied!&quot; title=&quot;copy to clipboard&quot;&gt;&lt;span class=&quot;octicon octicon-clippy&quot;&gt;&lt;/span&gt;&lt;/span&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;p class=&quot;clone-options&quot;&gt;You can clone with
+      &lt;a href=&quot;#&quot; class=&quot;js-clone-selector&quot; data-protocol=&quot;http&quot;&gt;HTTPS&lt;/a&gt;,
+      or &lt;a href=&quot;#&quot; class=&quot;js-clone-selector&quot; data-protocol=&quot;subversion&quot;&gt;Subversion&lt;/a&gt;.
+  &lt;span class=&quot;octicon help tooltipped upwards&quot; title=&quot;Get help on which URL is right for you.&quot;&gt;
+    &lt;a href=&quot;https://help.github.com/articles/which-remote-url-should-i-use&quot;&gt;
+    &lt;span class=&quot;octicon octicon-question&quot;&gt;&lt;/span&gt;
+    &lt;/a&gt;
+  &lt;/span&gt;
+&lt;/p&gt;
+
+
+&lt;pre&gt;&lt;code&gt;          &amp;lt;a href=&quot;/luckistmaomao/luckistmaomao.github.com/archive/master.zip&quot;
+             class=&quot;minibutton sidebar-button&quot;
+             title=&quot;Download this repository as a zip file&quot;
+             rel=&quot;nofollow&quot;&amp;gt;
+            &amp;lt;span class=&quot;octicon octicon-cloud-download&quot;&amp;gt;&amp;lt;/span&amp;gt;
+            Download ZIP
+          &amp;lt;/a&amp;gt;
+        &amp;lt;/div&amp;gt;
+    &amp;lt;/div&amp;gt;&amp;lt;!-- /.repository-sidebar --&amp;gt;
+
+    &amp;lt;div id=&quot;js-repo-pjax-container&quot; class=&quot;repository-content context-loader-container&quot; data-pjax-container&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;!-- blob contrib key: blob_contributors:v21:13b50dc8d1e5695e69b3b81b27122c8e --&gt;
+
+
+
+
+&lt;p title=&quot;This is a placeholder element&quot; class=&quot;js-history-link-replace hidden&quot;&gt;&lt;/p&gt;
+
+
+&lt;p&gt;&lt;a href=&quot;/luckistmaomao/luckistmaomao.github.com/find/master&quot; data-pjax data-hotkey=&quot;t&quot; class=&quot;js-show-file-finder&quot; style=&quot;display:none&quot;&gt;Show File Finder&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;file-navigation&quot;&gt;
+  
+
+&lt;div class=&quot;select-menu js-menu-container js-select-menu&quot; &gt;
+  &lt;span class=&quot;minibutton select-menu-button js-menu-target&quot; data-hotkey=&quot;w&quot;
+    data-master-branch=&quot;master&quot;
+    data-ref=&quot;master&quot;
+    role=&quot;button&quot; aria-label=&quot;Switch branches or tags&quot; tabindex=&quot;0&quot;&gt;
+    &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+    &lt;i&gt;branch:&lt;/i&gt;
+    &lt;span class=&quot;js-select-button&quot;&gt;master&lt;/span&gt;
+  &lt;/span&gt;
+
+  &lt;div class=&quot;select-menu-modal-holder js-menu-content js-navigation-container&quot; data-pjax&gt;
+
+    &lt;div class=&quot;select-menu-modal&quot;&gt;
+      &lt;div class=&quot;select-menu-header&quot;&gt;
+        &lt;span class=&quot;select-menu-title&quot;&gt;Switch branches/tags&lt;/span&gt;
+        &lt;span class=&quot;octicon octicon-remove-close js-menu-close&quot;&gt;&lt;/span&gt;
+      &lt;/div&gt; &lt;!-- /.select-menu-header --&gt;
+
+      &lt;div class=&quot;select-menu-filters&quot;&gt;
+        &lt;div class=&quot;select-menu-text-filter&quot;&gt;
+          &lt;input type=&quot;text&quot; aria-label=&quot;Filter branches/tags&quot; id=&quot;context-commitish-filter-field&quot; class=&quot;js-filterable-field js-navigation-enable&quot; placeholder=&quot;Filter branches/tags&quot;&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;select-menu-tabs&quot;&gt;
+          &lt;ul&gt;
+            &lt;li class=&quot;select-menu-tab&quot;&gt;
+              &lt;a href=&quot;#&quot; data-tab-filter=&quot;branches&quot; class=&quot;js-select-menu-tab&quot;&gt;Branches&lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li class=&quot;select-menu-tab&quot;&gt;
+              &lt;a href=&quot;#&quot; data-tab-filter=&quot;tags&quot; class=&quot;js-select-menu-tab&quot;&gt;Tags&lt;/a&gt;
+            &lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/div&gt;&lt;!-- /.select-menu-tabs --&gt;
+      &lt;/div&gt;&lt;!-- /.select-menu-filters --&gt;
+
+      &lt;div class=&quot;select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket&quot; data-tab-filter=&quot;branches&quot;&gt;
+
+        &lt;div data-filterable-for=&quot;context-commitish-filter-field&quot; data-filterable-type=&quot;substring&quot;&gt;
+
+
+            &lt;div class=&quot;select-menu-item js-navigation-item selected&quot;&gt;
+              &lt;span class=&quot;select-menu-item-icon octicon octicon-check&quot;&gt;&lt;/span&gt;
+              &lt;a href=&quot;/luckistmaomao/luckistmaomao.github.com/blob/master/_posts/2014-1-17-start.md&quot;
+                 data-name=&quot;master&quot;
+                 data-skip-pjax=&quot;true&quot;
+                 rel=&quot;nofollow&quot;
+                 class=&quot;js-navigation-open select-menu-item-text js-select-button-text css-truncate-target&quot;
+                 title=&quot;master&quot;&gt;master&lt;/a&gt;
+            &lt;/div&gt; &lt;!-- /.select-menu-item --&gt;
+        &lt;/div&gt;
+
+          &lt;div class=&quot;select-menu-no-results&quot;&gt;Nothing to show&lt;/div&gt;
+      &lt;/div&gt; &lt;!-- /.select-menu-list --&gt;
+
+      &lt;div class=&quot;select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket&quot; data-tab-filter=&quot;tags&quot;&gt;
+        &lt;div data-filterable-for=&quot;context-commitish-filter-field&quot; data-filterable-type=&quot;substring&quot;&gt;
+
+
+        &lt;/div&gt;
+
+        &lt;div class=&quot;select-menu-no-results&quot;&gt;Nothing to show&lt;/div&gt;
+      &lt;/div&gt; &lt;!-- /.select-menu-list --&gt;
+
+    &lt;/div&gt; &lt;!-- /.select-menu-modal --&gt;
+  &lt;/div&gt; &lt;!-- /.select-menu-modal-holder --&gt;
+&lt;/div&gt; &lt;!-- /.select-menu --&gt;
+
+  &lt;div class=&quot;breadcrumb&quot;&gt;
+    &lt;span class='repo-root js-repo-root'&gt;&lt;span itemscope=&quot;&quot; itemtype=&quot;http://data-vocabulary.org/Breadcrumb&quot;&gt;&lt;a href=&quot;/luckistmaomao/luckistmaomao.github.com&quot; data-branch=&quot;master&quot; data-direction=&quot;back&quot; data-pjax=&quot;true&quot; itemscope=&quot;url&quot;&gt;&lt;span itemprop=&quot;title&quot;&gt;luckistmaomao.github.com&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;separator&quot;&gt; / &lt;/span&gt;&lt;span itemscope=&quot;&quot; itemtype=&quot;http://data-vocabulary.org/Breadcrumb&quot;&gt;&lt;a href=&quot;/luckistmaomao/luckistmaomao.github.com/tree/master/_posts&quot; data-branch=&quot;master&quot; data-direction=&quot;back&quot; data-pjax=&quot;true&quot; itemscope=&quot;url&quot;&gt;&lt;span itemprop=&quot;title&quot;&gt;_posts&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;span class=&quot;separator&quot;&gt; / &lt;/span&gt;&lt;strong class=&quot;final-path&quot;&gt;2014-1-17-start.md&lt;/strong&gt; &lt;span class=&quot;js-zeroclipboard minibutton zeroclipboard-button&quot; data-clipboard-text=&quot;_posts/2014-1-17-start.md&quot; data-copied-hint=&quot;copied!&quot; title=&quot;copy to clipboard&quot;&gt;&lt;span class=&quot;octicon octicon-clippy&quot;&gt;&lt;/span&gt;&lt;/span&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;  &lt;div class=&quot;commit file-history-tease&quot;&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;img class=&quot;main-avatar&quot; height=&quot;24&quot; src=&quot;https://1.gravatar.com/avatar/517c457f4542c35dd7b778998ab97471?d=https%3A%2F%2Fa248.e.akamai.net%2Fassets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&amp;amp;amp;r=x&amp;amp;amp;s=140&quot; width=&quot;24&quot; /&amp;gt;
+&amp;lt;span class=&quot;author&quot;&amp;gt;&amp;lt;span rel=&quot;author&quot;&amp;gt;yu&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;
+&amp;lt;time class=&quot;js-relative-date&quot; datetime=&quot;2014-01-18T05:19:46-08:00&quot; title=&quot;2014-01-18 05:19:46&quot;&amp;gt;January 18, 2014&amp;lt;/time&amp;gt;
+&amp;lt;div class=&quot;commit-title&quot;&amp;gt;
+    &amp;lt;a href=&quot;/luckistmaomao/luckistmaomao.github.com/commit/022d969eabbf2aa563449657b8fdcdf68684e41a&quot; class=&quot;message&quot; data-pjax=&quot;true&quot; title=&quot;2&quot;&amp;gt;2&amp;lt;/a&amp;gt;
+&amp;lt;/div&amp;gt;
+
+&amp;lt;div class=&quot;participation&quot;&amp;gt;
+  &amp;lt;p class=&quot;quickstat&quot;&amp;gt;&amp;lt;a href=&quot;#blob_contributors_box&quot; rel=&quot;facebox&quot;&amp;gt;&amp;lt;strong&amp;gt;0&amp;lt;/strong&amp;gt; contributors&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+
+&amp;lt;/div&amp;gt;
+&amp;lt;div id=&quot;blob_contributors_box&quot; style=&quot;display:none&quot;&amp;gt;
+  &amp;lt;h2 class=&quot;facebox-header&quot;&amp;gt;Users who have contributed to this file&amp;lt;/h2&amp;gt;
+  &amp;lt;ul class=&quot;facebox-user-list&quot;&amp;gt;
+  &amp;lt;/ul&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;  &lt;/div&gt;&lt;/p&gt;
+
+&lt;div id=&quot;files&quot; class=&quot;bubble&quot;&gt;
+  &lt;div class=&quot;file&quot;&gt;
+    &lt;div class=&quot;meta&quot;&gt;
+      &lt;div class=&quot;info&quot;&gt;
+        &lt;span class=&quot;icon&quot;&gt;&lt;b class=&quot;octicon octicon-file-text&quot;&gt;&lt;/b&gt;&lt;/span&gt;
+        &lt;span class=&quot;mode&quot; title=&quot;File Mode&quot;&gt;file&lt;/span&gt;
+          &lt;span&gt;19 lines (15 sloc)&lt;/span&gt;
+        &lt;span&gt;0.282 kb&lt;/span&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;actions&quot;&gt;
+        &lt;div class=&quot;button-group&quot;&gt;
+              &lt;a class=&quot;minibutton disabled tooltipped leftwards&quot; href=&quot;#&quot;
+                 title=&quot;You must be signed in to make or propose changes&quot;&gt;Edit&lt;/a&gt;
+          &lt;a href=&quot;/luckistmaomao/luckistmaomao.github.com/raw/master/_posts/2014-1-17-start.md&quot; class=&quot;button minibutton &quot; id=&quot;raw-url&quot;&gt;Raw&lt;/a&gt;
+            &lt;a href=&quot;/luckistmaomao/luckistmaomao.github.com/blame/master/_posts/2014-1-17-start.md&quot; class=&quot;button minibutton &quot;&gt;Blame&lt;/a&gt;
+          &lt;a href=&quot;/luckistmaomao/luckistmaomao.github.com/commits/master/_posts/2014-1-17-start.md&quot; class=&quot;button minibutton &quot; rel=&quot;nofollow&quot;&gt;History&lt;/a&gt;
+        &lt;/div&gt;&lt;!-- /.button-group --&gt;
+          &lt;a class=&quot;minibutton danger disabled empty-icon tooltipped leftwards&quot; href=&quot;#&quot;
+             title=&quot;You must be signed in to make or propose changes&quot;&gt;
+          Delete
+        &lt;/a&gt;
+      &lt;/div&gt;&lt;!-- /.actions --&gt;
+
+    &lt;/div&gt;
+      
+  &lt;div id=&quot;readme&quot; class=&quot;blob instapaper_body&quot;&gt;
+    &lt;article class=&quot;markdown-body entry-content&quot; itemprop=&quot;mainContentOfPage&quot;&gt;&lt;table data-table-type=&quot;yaml-metadata&quot;&gt;
+&lt;thead&gt;&lt;tr&gt;
+&lt;th&gt;layout&lt;/th&gt;
+
+  &lt;th&gt;title&lt;/th&gt;
+
+  &lt;th&gt;summary&lt;/th&gt;
+
+  &lt;th&gt;categories&lt;/th&gt;
+
+  &lt;th&gt;tags&lt;/th&gt;
+
+  &lt;th&gt;published&lt;/th&gt;
+  &lt;/tr&gt;&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td&gt;&lt;div&gt;post&lt;/div&gt;&lt;/td&gt;
+
+  &lt;td&gt;&lt;div&gt;把blog搬过来了&lt;/div&gt;&lt;/td&gt;
+
+  &lt;td&gt;&lt;div&gt;恩，终于搞定了&lt;/div&gt;&lt;/td&gt;
+
+  &lt;td&gt;&lt;div&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;
+&lt;td&gt;&lt;div&gt;杂&lt;/div&gt;&lt;/td&gt;
+  &lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;/td&gt;
+
+  &lt;td&gt;&lt;div&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;
+&lt;td&gt;&lt;div&gt;杂&lt;/div&gt;&lt;/td&gt;
+  &lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;/td&gt;
+
+  &lt;td&gt;&lt;div&gt;true&lt;/div&gt;&lt;/td&gt;
+  &lt;/tr&gt;&lt;/tbody&gt;
+&lt;/table&gt;&lt;h1&gt;
+&lt;a name=&quot;-pagetitle-&quot; class=&quot;anchor&quot; href=&quot;#-pagetitle-&quot;&gt;&lt;span class=&quot;octicon octicon-link&quot;&gt;&lt;/span&gt;&lt;/a&gt;Start&lt;/h1&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h3&gt;
+&lt;a name=&quot;%E6%88%91%E5%B0%B1%E6%98%AF%E6%B5%8B%E8%AF%95%E4%B8%80%E4%B8%8B%E4%B8%8B&quot; class=&quot;anchor&quot; href=&quot;#%E6%88%91%E5%B0%B1%E6%98%AF%E6%B5%8B%E8%AF%95%E4%B8%80%E4%B8%8B%E4%B8%8B&quot;&gt;&lt;span class=&quot;octicon octicon-link&quot;&gt;&lt;/span&gt;&lt;/a&gt;我就是测试一下下&lt;/h3&gt;
+
+&lt;p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;python&quot;&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;strong&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;strong&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;&amp;lt;strong&amp;gt;main&amp;lt;/strong&amp;gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;hello world&amp;quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;&lt;/article&gt;
+  &lt;/div&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;&lt;a href=&quot;#jump-to-line&quot; rel=&quot;facebox[.linejump]&quot; data-hotkey=&quot;l&quot; class=&quot;js-jump-to-line&quot; style=&quot;display:none&quot;&gt;Jump to Line&lt;/a&gt;&lt;/p&gt;
+
+&lt;div id=&quot;jump-to-line&quot; style=&quot;display:none&quot;&gt;
+  &lt;form accept-charset=&quot;UTF-8&quot; class=&quot;js-jump-to-line-form&quot;&gt;
+    &lt;input class=&quot;linejump-input js-jump-to-line-field&quot; type=&quot;text&quot; placeholder=&quot;Jump to line&amp;hellip;&quot; autofocus&gt;
+    &lt;button type=&quot;submit&quot; class=&quot;button&quot;&gt;Go&lt;/button&gt;
+  &lt;/form&gt;
+&lt;/div&gt;
+
+
+&lt;pre&gt;&lt;code&gt;    &amp;lt;/div&amp;gt;
+
+  &amp;lt;/div&amp;gt;&amp;lt;!-- /.repo-container --&amp;gt;
+  &amp;lt;div class=&quot;modal-backdrop&quot;&amp;gt;&amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;&amp;lt;!-- /.container --&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;  &lt;/div&gt;&lt;!-- /.site --&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;/div&amp;gt;&amp;lt;!-- /.wrapper --&amp;gt;
+
+  &amp;lt;div class=&quot;container&quot;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;  &lt;div class=&quot;site-footer&quot;&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;ul class=&quot;site-footer-links right&quot;&amp;gt;
+  &amp;lt;li&amp;gt;&amp;lt;a href=&quot;https://status.github.com/&quot;&amp;gt;Status&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+  &amp;lt;li&amp;gt;&amp;lt;a href=&quot;http://developer.github.com&quot;&amp;gt;API&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+  &amp;lt;li&amp;gt;&amp;lt;a href=&quot;http://training.github.com&quot;&amp;gt;Training&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+  &amp;lt;li&amp;gt;&amp;lt;a href=&quot;http://shop.github.com&quot;&amp;gt;Shop&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+  &amp;lt;li&amp;gt;&amp;lt;a href=&quot;/blog&quot;&amp;gt;Blog&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+  &amp;lt;li&amp;gt;&amp;lt;a href=&quot;/about&quot;&amp;gt;About&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+
+&amp;lt;/ul&amp;gt;
+
+&amp;lt;a href=&quot;/&quot;&amp;gt;
+  &amp;lt;span class=&quot;mega-octicon octicon-mark-github&quot; title=&quot;GitHub&quot;&amp;gt;&amp;lt;/span&amp;gt;
+&amp;lt;/a&amp;gt;
+
+&amp;lt;ul class=&quot;site-footer-links&quot;&amp;gt;
+  &amp;lt;li&amp;gt;&amp;amp;copy; 2014 &amp;lt;span title=&quot;0.02605s from github-fe126-cp1-prd.iad.github.net&quot;&amp;gt;GitHub&amp;lt;/span&amp;gt;, Inc.&amp;lt;/li&amp;gt;
+    &amp;lt;li&amp;gt;&amp;lt;a href=&quot;/site/terms&quot;&amp;gt;Terms&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+    &amp;lt;li&amp;gt;&amp;lt;a href=&quot;/site/privacy&quot;&amp;gt;Privacy&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+    &amp;lt;li&amp;gt;&amp;lt;a href=&quot;/security&quot;&amp;gt;Security&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+    &amp;lt;li&amp;gt;&amp;lt;a href=&quot;/contact&quot;&amp;gt;Contact&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+&amp;lt;/ul&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;  &lt;/div&gt;&lt;!-- /.site-footer --&gt;
+&lt;/div&gt;&lt;!-- /.container --&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;div class=&quot;fullscreen-overlay js-fullscreen-overlay&quot; id=&quot;fullscreen_overlay&quot;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;  &lt;div class=&quot;fullscreen-container js-fullscreen-container&quot;&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;div class=&quot;textarea-wrap&quot;&amp;gt;
+  &amp;lt;textarea name=&quot;fullscreen-contents&quot; id=&quot;fullscreen-contents&quot; class=&quot;js-fullscreen-contents&quot; placeholder=&quot;&quot; data-suggester=&quot;fullscreen_suggester&quot;&amp;gt;&amp;lt;/textarea&amp;gt;
+      &amp;lt;div class=&quot;suggester-container&quot;&amp;gt;
+          &amp;lt;div class=&quot;suggester fullscreen-suggester js-navigation-container&quot; id=&quot;fullscreen_suggester&quot;
+             data-url=&quot;/luckistmaomao/luckistmaomao.github.com/suggestions/commit&quot;&amp;gt;
+          &amp;lt;/div&amp;gt;
+      &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;  &lt;/div&gt;
+  &lt;div class=&quot;fullscreen-sidebar&quot;&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;a href=&quot;#&quot; class=&quot;exit-fullscreen js-exit-fullscreen tooltipped leftwards&quot; title=&quot;Exit Zen Mode&quot;&amp;gt;
+  &amp;lt;span class=&quot;mega-octicon octicon-screen-normal&quot;&amp;gt;&amp;lt;/span&amp;gt;
+&amp;lt;/a&amp;gt;
+&amp;lt;a href=&quot;#&quot; class=&quot;theme-switcher js-theme-switcher tooltipped leftwards&quot;
+  title=&quot;Switch themes&quot;&amp;gt;
+  &amp;lt;span class=&quot;octicon octicon-color-mode&quot;&amp;gt;&amp;lt;/span&amp;gt;
+&amp;lt;/a&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;  &lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;div id=&quot;ajax-error-message&quot; class=&quot;flash flash-error&quot;&amp;gt;
+  &amp;lt;span class=&quot;octicon octicon-alert&quot;&amp;gt;&amp;lt;/span&amp;gt;
+  &amp;lt;a href=&quot;#&quot; class=&quot;octicon octicon-remove-close close ajax-error-dismiss&quot;&amp;gt;&amp;lt;/a&amp;gt;
+  Something went wrong with that request. Please try again.
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;  &lt;/body&gt;
+&lt;/html&gt;&lt;/p&gt;
 </content>
  </entry>
  
